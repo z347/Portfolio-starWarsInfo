@@ -1,0 +1,21 @@
+{
+    "name": "star-wars-info",
+    "version": "1.0.0",
+    "description": "react application which deploy on Heroku",
+    "engines": {
+        "node": "12.16.2",
+        "npm": "6.14.x"
+    },
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "prettier:check": "prettier --check **/*.{js,jsx,json}",
+        "prettier:write": "prettier --write **/*.{js,jsx,json}"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.1.1"
+    }
+}
